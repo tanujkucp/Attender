@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Switch
+        android:id="@+id/switch_newold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:checked="false"
+        android:shadowColor="#4455"
+        android:text="@string/update"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/createclass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch_newold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Class Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/num_students"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/switch_newold"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/createclass"
+        android:ems="10"
+        android:hint="Num."
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/addclass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createclass"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/add" />
+
+    <Button
+        android:id="@+id/deleteclass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createclass"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/addclass"
+        android:text="@string/delete" />
+
+    <TextView
+        android:id="@+id/classselect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addclass"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/standard"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/classspinner"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/addclass"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@+id/classselect" />
+
+    <TextView
+        android:id="@+id/class_textView"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/addclass"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@+id/classselect" />
+
+    <EditText
+        android:id="@+id/createstudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/classspinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/student_name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addstudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createstudent"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/add" />
+
+    <Button
+        android:id="@+id/deletestudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createstudent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/addstudent"
+        android:text="@string/delete" />
+
+    <TextView
+        android:id="@+id/num_added"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addstudent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#fdff1bf4"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_login"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/log_in" />
+        <item
+            android:id="@+id/menu_attend"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/attendance" />
+        <item
+            android:id="@+id/menu_students"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/students" />
+        <item
+            android:id="@+id/menu_records"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/records" />
+    </group>
+
+    <item android:title="@string/share_this_app">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/share" />
+                <item
+                    android:id="@+id/menu_feedback"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/feedback" />
+                <item
+                    android:id="@+id/menu_about"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/about" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>
