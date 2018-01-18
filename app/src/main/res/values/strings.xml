@@ -29,7 +29,7 @@
     <string name="delete">Delete</string>
     <string name="student_name">Student Name</string>
     <string name="version">Version 1.0</string>
-    <string name="aboutdev">This App is designed and developed by Tanuj Mehta.\nThis Application is an Open-Source project created to help teachers in maintaining record of students' attendance and minimize their efforts in doing so.</string>
+    <string name="aboutdev">This App is designed and developed by Tanuj Mehta.\nThis Application is an Open-Source project created to help teachers in maintaining record of students\' attendance and minimize their efforts in doing so.\nAll of the source code for this App can be download from Github/tanujkucp/Attender</string>
     <string name="changepassord">Change your Password here</string>
     <string name="old_password">Old Password</string>
     <string name="new_password">New Password</string>
@@ -64,7 +64,7 @@
     <string name="auth_failed">Authentication Failed! Try Again.</string>
     <string name="acc_created">Account Created!</string>
     <string name="already_logged">Already Logged In!</string>
-    <string name="share_body">I recommend Attender v1.0 . Visit the links with your android device. Attender v1.0( https://market.android.com/search?q=pname:com.Attender )</string>
+    <string name="share_body">I recommend Attender v1.0 . Visit the links with your android device. Attender v1.0( https://github.com/tanujkucp/Attender/blob/6dbc9cf94efe2a097b1b7342273b58ea3481f152/app/release/app-release.apk )</string>
     <string name="share_sub">Attender v1.0</string>
     <string name="share_via">Share via</string>
     <string name="tanuj_email">tanujkucp@outlook.com</string>
