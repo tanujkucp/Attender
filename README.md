@@ -8,4 +8,5 @@ We can login using our credentials and then we can create classes, enroll studen
 This provides all the options that should be available in an attendance application.
 
 Link to the APK of this app: 
-      
+     https://github.com/tanujkucp/Attender/blob/master/app/release/app-debug.apk
+     
